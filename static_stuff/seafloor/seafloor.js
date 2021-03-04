@@ -27,5 +27,3 @@ function seafloorUI(){
     </svg>
     </div>`
 }
-
-export const seafloor = seafloorUI();

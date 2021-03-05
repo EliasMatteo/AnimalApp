@@ -1,6 +1,9 @@
 function turtleoilUI() {
     return `
-<div>
+<div style = '
+    width: 35px;
+    height: 35px;
+'>
     <div><svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g clip-path="url(#clip0)">
     <path d="M12.2443 17.688C11.9612 17.688 11.7317 17.9175 11.7317 18.2006V19.1518C11.7317 19.4348 11.9612 19.6644 12.2443 19.6644C12.5275 19.6644 12.7569 19.4349 12.7569 19.1518V18.2006C12.7569 17.9174 12.5274 17.688 12.2443 17.688Z" fill="black"/>

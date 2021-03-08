@@ -77,3 +77,4 @@ function coralreefUI() {
         document.getElementById('myImage').src='coralreefboth.png';
         document.getElementById('buttons').style.opacity = "1";
     }
+}

@@ -1,6 +1,6 @@
 function popupUI() {
     return `
-    
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -52,7 +52,7 @@ flex-direction: column;
     flex-direction: column;
     margin-top: 40px;
     '>
-        <div stylr='
+        <div style='
         color: #242C3C;
         font-size: 16px;
         font-family: 'Roboto', sans-serif;

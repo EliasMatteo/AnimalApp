@@ -13,6 +13,7 @@
 body, html {
     margin: 0px;
     overflow-x: hidden;
+    background-color: #88A7BC;
 }
 
 /*This should control the animation effect for certain svg fishes going to the left in particular*/

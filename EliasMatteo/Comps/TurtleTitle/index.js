@@ -1,4 +1,4 @@
-function TurtleUI()
+function TurtleUI(x=0, y=0)
 {
     return `
         <div style = '
@@ -6,8 +6,8 @@ function TurtleUI()
         position: relative;
         height: 28px;
         width: 61px;
-        left: 2px;
-        top: 11px;
+        top:${y}px;
+        left:${x}px;
         
         '>
             <img src = '/img/turtle-title.svg' />

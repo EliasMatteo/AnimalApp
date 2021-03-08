@@ -1,10 +1,10 @@
-function FallingTrashUI(src="http://placekitten.com/200/200"){
+function FallingTrashUI(src="../../img/bottle.png"){
   return `
   <div class="trashdiv" style="
     height:50em;
     width:100vw;
     position:relative;
-    // background-color:#333;
+    background-color:#333;
   ">
     <img class="trashimg" src="${src}"
     style="
@@ -21,10 +21,10 @@ function HandleScroll(){
   var scrollTop = document.documentElement.scrollTop + window.innerHeight/2;
   document.querySelectorAll(".trashimg").forEach(el=>{
     var trashTop = el.parentNode.offsetTop;
-    if(scrollTop > trashTop && el.src == "http://127.0.0.1:5501/images/bottle.png"){
+    if(scrollTop > trashTop && el.src.includes("bottle.png")){
       el.style.animation = "falltoright 5s linear infinite";
     }
-    if(scrollTop > trashTop && el.src == "http://127.0.0.1:5501/images/can.png"){
+    if(scrollTop > trashTop && el.src.includes("can.png")){
       el.style.animation = "falltoleft 5s linear infinite";
     }
   })

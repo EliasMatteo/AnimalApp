@@ -8,13 +8,13 @@
 // COMPONENT LINKS / FOR THE MOMENT IF YOU HAVE ANY TO ATTACH JUST PUT EM AS #MAIN AND WE SHALL ORGANIZE LATER
 
     // ELIAS MATTEO COMPONENT LINKS
-    document.querySelector('#main').innerHTML += WavesUI()
+    document.querySelector('#main').innerHTML += TurtleUI(760, 10)
     document.querySelector('#main').innerHTML += TitleUI()
-    document.querySelector('#main').innerHTML += TurtleSideViewUI()
-    document.querySelector('#main').innerHTML += TurtleUI()
-    document.querySelector('#main').innerHTML += FishUI()
+    document.querySelector('#main').innerHTML += WavesUI()
+    document.querySelector('#test').innerHTML += FishUI()
     document.querySelector('#main').innerHTML += Fish2UI()
     document.querySelector('#main').innerHTML += Fish3UI()
+    document.querySelector('#main').innerHTML += TurtleSideViewUI()
     document.querySelector('#main').innerHTML += SchoolFishUI()
     document.querySelector('#main').innerHTML += SchoolFish2UI()
     document.querySelector('#main').innerHTML += SchoolFish3UI()

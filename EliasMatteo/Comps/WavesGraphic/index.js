@@ -9,23 +9,23 @@ function WavesUI(x=0, y=0)
             height: 100%;
             top:${y}px;
             left:${x}px;
-            opacity:1;
-            transition:opacity 0.5s;
+            
 
 
 
         
             '
-            onload= 'WavesUI.HandleOpa(this)'
-        >
-        <img id='waves' src = '/img/waves.svg' />
-        </div>
-        
-        `
-    }
 
-    
-    WavesUI.HandleOpa = (el) =>
-{  
-  el.style.animation = "waves 5s linear"
-}
+            >
+                <img id='waves' src = '/img/waves.svg'/>
+            </div>
+            
+            `
+        }
+        
+        
+    // onload= 'WavesUI.HandleOpa(this)'
+    // WavesUI.HandleOpa = (el) =>
+    // {  
+    //     el.style.animation = "waves 5s linear"
+    // }

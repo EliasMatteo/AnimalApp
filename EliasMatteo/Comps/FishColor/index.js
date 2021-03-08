@@ -2,17 +2,18 @@ function FishUI( x=0, y=0)
 {
     return `
     <div style ='
-        display:flex
+        display: flex;
         z-index: 0;
         width: 100%;
         height: 100%;
         top:${y}px;
         left:${x}px;
+        
 
 '
     onclick='FishUI.HandleClick(this)'
 >
-    <img id='fish1' src = '/img/fishColor1'/>
+    <img id='fish1' src = '/img/fishColor1.svg'/>
     
 </div>
     
@@ -21,5 +22,5 @@ function FishUI( x=0, y=0)
 
 FishUI.HandleClick = (el) =>
 {
-    el.querySelector('#fish1').style.animation = "fish 7s ease-in 1 forwards"
+    el.querySelector('#fish1').style.animation = "fishL 7s ease-in 1 forwards"
 }

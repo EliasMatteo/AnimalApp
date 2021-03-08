@@ -22,6 +22,17 @@
     //
 
     // FARBOD COMPONENT LINKS
+    document.querySelector('#main').innerHTML += popupUI()
+    document.querySelector('#main').innerHTML += buttonbottomUI()
+    document.querySelector('#main').innerHTML += coralreefUI()
+    document.querySelector('#main').innerHTML += litterUI()
+    document.querySelector('#main').innerHTML += litteringUI()
+    document.querySelector('#main').innerHTML += mantrashUI()
+    document.querySelector('#main').innerHTML += oildrumUI()
+    document.querySelector('#main').innerHTML += recyclingUI()
+    document.querySelector('#main').innerHTML += seafloorUI()
+    document.querySelector('#main').innerHTML += turtleoilUI()
+
 
     //
 

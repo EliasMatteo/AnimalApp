@@ -1,4 +1,74 @@
-/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+/* PLEASE ADD OUR STYLING HERE AND GIVE QUICK EXPLANATIONS OF WHAT CODE DOES JUST FOR CLARITIES SAKE THANKS HOMIES ;)
+
+  TEAM MOTTO:
+  {
+    I like turtles because they’re so chill. They don’t hurt anyone. They’re just like, “Hey man, I want to swim, and maybe eat some lettuce. But I’m gonna take my time getting there, I’m not in a rush. Because I’m a turtle.”
+  }
+
+*/
+
+
+
+/*General styling to prevent strange border around page and to prevent viewing of objects / animations of the main screen*/
+body, html {
+    margin: 0px;
+    overflow: hidden;
+}
+
+/*This should control the animation effect for certain svg fishes going to the left in particular*/
+@keyframes fishL {
+  from {left: 0px;}
+  to {left: 2000px;}
+}
+
+/*This should control the animation effect for certain svg fishes going to the right in particular*/
+@keyframes fishR {
+  from {right: 0px;}
+  to {right: 2000px;}
+  
+}
+
+/*This should control the animation effect for the waves effect which is meant to be opacity but its currently not working*/
+@keyframes waves {
+  from {opacity: 1;}
+  to {opacity: 0;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/
 
 /* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
@@ -11,11 +81,11 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+/* html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-}
+} */
 
 /*
  * Remove text-shadow in selection highlight:
@@ -27,7 +97,7 @@ html {
  * Customize the background color to match your design.
  */
 
-::-moz-selection {
+/* ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
@@ -35,20 +105,20 @@ html {
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
-}
+} */
 
 /*
  * A better looking default horizontal rule
  */
 
-hr {
+/* hr {
   display: block;
   height: 1px;
   border: 0;
   border-top: 1px solid #ccc;
   margin: 1em 0;
   padding: 0;
-}
+} */
 
 /*
  * Remove the gap between audio, canvas, iframes,
@@ -56,32 +126,32 @@ hr {
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
-audio,
+/* audio,
 canvas,
 iframe,
 img,
 svg,
 video {
   vertical-align: middle;
-}
+} */
 
 /*
  * Remove default fieldset styles.
  */
 
-fieldset {
+/* fieldset {
   border: 0;
   margin: 0;
   padding: 0;
-}
+} */
 
 /*
  * Allow only vertical resizing of textareas.
  */
 
-textarea {
+/* textarea {
   resize: vertical;
-}
+} */
 
 /* ==========================================================================
    Author's custom styles
@@ -95,7 +165,7 @@ textarea {
  * Hide visually and from screen readers
  */
 
-.hidden,
+/* .hidden,
 [hidden] {
   display: none !important;
 }
@@ -109,7 +179,7 @@ textarea {
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
 
-.sr-only {
+/* .sr-only {
   border: 0;
   clip: rect(0, 0, 0, 0);
   height: 1px;
@@ -119,8 +189,8 @@ textarea {
   position: absolute;
   white-space: nowrap;
   width: 1px;
-  /* 1 */
-}
+  1 
+} */
 
 /*
  * Extends the .sr-only class to allow the element
@@ -128,7 +198,7 @@ textarea {
  * https://www.drupal.org/node/897638
  */
 
-.sr-only.focusable:active,
+/* .sr-only.focusable:active,
 .sr-only.focusable:focus {
   clip: auto;
   height: auto;
@@ -137,15 +207,15 @@ textarea {
   position: static;
   white-space: inherit;
   width: auto;
-}
+} */
 
 /*
  * Hide visually and from screen readers, but maintain layout
  */
 
-.invisible {
+/* .invisible {
   visibility: hidden;
-}
+} */
 
 /*
  * Clearfix: contain floats
@@ -159,7 +229,7 @@ textarea {
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix::before,
+/* .clearfix::before,
 .clearfix::after {
   content: " ";
   display: table;
@@ -167,7 +237,7 @@ textarea {
 
 .clearfix::after {
   clear: both;
-}
+} */
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -175,16 +245,16 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+/* @media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition 
+ } */
 
-@media print,
+/* @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
+  (min-resolution: 120dpi) { */
+  /* Style adjustments for high resolution devices 
+ }  */
 
 /* ==========================================================================
    Print styles.
@@ -192,13 +262,13 @@ textarea {
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-@media print {
+/* @media print {
   *,
   *::before,
   *::after {
     background: #fff !important;
     color: #000 !important;
-    /* Black prints faster */
+    Black prints faster 
     box-shadow: none !important;
     text-shadow: none !important;
   }
@@ -214,13 +284,13 @@ textarea {
 
   abbr[title]::after {
     content: " (" attr(title) ")";
-  }
+  }  */
 
   /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
    */
-  a[href^="#"]::after,
+  /* a[href^="#"]::after,
   a[href^="javascript:"]::after {
     content: "";
   }
@@ -233,13 +303,13 @@ textarea {
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
-  }
+  } */
 
   /*
    * Printing Tables:
    * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
    */
-  thead {
+  /* thead {
     display: table-header-group;
   }
 
@@ -259,5 +329,4 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
-}
-
+} */

@@ -30,8 +30,14 @@ body, html {
 
 /*This should control the animation effect for the waves effect which is meant to be opacity but its currently not working*/
 @keyframes waves {
-  from {opacity: 1;}
-  to {opacity: 0;}
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+#waves {
+  animation-name: waves;
+  animation-timing-function: linear;
+  animation-iteration-count: 3;
 }
 
 /* These are for the sun graphic */

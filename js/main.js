@@ -38,6 +38,8 @@
 
     // CATHERINE COMPONENT LINKS
     document.querySelector('#main').innerHTML += RotateSunUI()
+    document.querySelector('#main').innerHTML += FallingTrashUI("../../img/bottle.png")
+    document.querySelector('#main').innerHTML += FallingTrashUI("../../img/can.png")
     //
 
 

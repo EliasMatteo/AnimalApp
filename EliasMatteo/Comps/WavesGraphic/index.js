@@ -2,11 +2,21 @@ function WavesUI()
 {
     return `
         <div style = '
-        position: relative;
+            display: flex;
+            justify-content: center;
+            z-index: 0;
+            width: 100%;
+            height: 100%;
+            top:${y}px;
+            left:${x}px;
+
+
 
         
-        '>
-         <img src = '/img/waves.svg' />
+        '
+            
+        >
+         <img id='waves' src = '/img/waves.svg' />
         </div>
     
     `

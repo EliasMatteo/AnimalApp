@@ -1,14 +1,25 @@
-function Fish3UI()
+function Fish3UI( x=0, y=0)
 {
-    return`
-        <div style ='
-     
+    return `
+     <div style = '
+        display:flex;
+        justify-content: flex-end;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        top:${y}px;
+        left:${x}px;
            
-            
-        
-        
-        '>
-            <img src = '/img/fishColor3'/>
-        </div>
+   '
+     onclick='Fish3UI.HandleClick(this)'
+     > 
+      <img id='fish3' src = '/img/fishColor3' />
+    </div>
+    
     `
+}
+
+Fish3UI.HandleClick = (el) =>
+{
+    el.querySelector('#fish3').style.animation = "fishR 7s ease-in forwards"
 }

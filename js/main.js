@@ -9,6 +9,9 @@
 
     // ELIAS MATTEO COMPONENT LINKS
     document.querySelector('#main').innerHTML += WavesUI()
+    document.querySelector('#main').innerHTML += TitleUI()
+    document.querySelector('#main').innerHTML += TurtleSideViewUI()
+    document.querySelector('#main').innerHTML += TurtleUI()
     document.querySelector('#main').innerHTML += FishUI()
     document.querySelector('#main').innerHTML += Fish2UI()
     document.querySelector('#main').innerHTML += Fish3UI()

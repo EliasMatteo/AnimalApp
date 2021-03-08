@@ -8,7 +8,7 @@ function recyclingUI() {
     border-radius: 36px;
     '>
         <div>
-            <img src="turtleoil.svg"/>
+            <img src='../../img/recycling.svg'/>
         </div>
    
     </div>

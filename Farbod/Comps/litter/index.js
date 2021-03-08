@@ -6,7 +6,7 @@ function litterUI() {
     border-radius: 36px;
     '>
     <div>
-        <img src="litter.svg"/>
+        <img src='../../img/litter.svg'/>
     </div>
     </div>    
 

@@ -7,7 +7,7 @@ function litteringUI() {
     '>
 
     <div>
-        <img src="littering.svg"/>
+        <img src='../../img/littering.svg'/>
     </div>
     </div>
     `

@@ -26,7 +26,7 @@ function coralreefUI() {
             max-height: 270px;
             border: solid white 3px;
             ' 
-            src="coralreefboth.png">
+            src='../../img/coralreefboth.png'>
         </div>
         <div id="buttons" style='
         position: absolute;
@@ -45,8 +45,8 @@ function coralreefUI() {
             text-align: center;
             font-size: 32px;
             ' 
-            onclick="after()"><</button>
-            <button class="compare" onclick="both()">Compare</button>
+            onclick='coralreefUI.after(this)'><</button>
+            <button class='compare' onclick='coralreef.both(this)'>Compare</button>
             <button style='
             height: 54px;
             width: 30px;
@@ -59,22 +59,22 @@ function coralreefUI() {
             text-align: center;
             font-size: 32px;
             '  
-            onclick="before()">></button>
+            onclick='coralreefUI.before(this)'>></button>
         </div>
     </div>
     `
     function before() {
-        document.getElementById('myImage').src='coralreefbefore.jpg';
+        document.getElementById('myImage').src='../../img/coralreefbefore.jpg';
         document.getElementById('buttons').style.opacity = "0.5";
     }
     
     function after() {
-        document.getElementById('myImage').src='coralreefafter.jpg';
+        document.getElementById('myImage').src='../../img/coralreefafter.jpg';
         document.getElementById('buttons').style.opacity = "0.5";
     }
     
     function both() {
-        document.getElementById('myImage').src='coralreefboth.png';
+        document.getElementById('myImage').src='../../img/coralreefboth.png';
         document.getElementById('buttons').style.opacity = "1";
     }
 }

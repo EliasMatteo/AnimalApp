@@ -5,7 +5,7 @@ function oildrumUI() {
         eight: 132px;
     '>
         <div>
-            <img src="oildrum.svg"/>
+            <img src='../../img/oildrum.svg'/>
         </div>
     </div>
 `

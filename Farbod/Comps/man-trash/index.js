@@ -8,7 +8,7 @@ function mantrashUI() {
         '>
 
     <div>
-        <img src="mantrash.svg"/>
+        <img src='../../img/mantrash.svg'/>
     </div>
     </div>
     `

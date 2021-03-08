@@ -5,7 +5,7 @@ function seafloorUI(){
     display: flex;
     '>
         <div>
-            <img src="seafloor.svg"/>
+            <img src='../../img/seafloor.svg'/>
         </div>
     </div>`
 }

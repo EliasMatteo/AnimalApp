@@ -5,7 +5,7 @@ function turtleoilUI() {
     height: 35px;
 '>
     <div>
-    <img src="turtleoil.svg"/>
+    <img src='../../img/turtleoil.svg'/>
     </div>
 </div>
 `

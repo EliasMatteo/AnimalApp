@@ -12,7 +12,7 @@
 /*General styling to prevent strange border around page and to prevent viewing of objects / animations of the main screen*/
 body, html {
     margin: 0px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /*This should control the animation effect for certain svg fishes going to the left in particular*/
@@ -34,12 +34,61 @@ body, html {
   to {opacity: 0;}
 }
 
+/* These are for the sun graphic */
+@keyframes rotate {
+  0% {
+    transform:rotate(0deg);
+  }
+  100% {
+    transform:rotate(360deg);
+  }
+}
 
+.rotate {
+  animation-name: rotate;
+  animation-duration: 12s;
+  animation-direction: normal;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
 
+/* This is for the plastic bottles. They fall from left to right */
+@keyframes falltoright {
+  0% {
+    top:0%;
+    left:5%;
+    transform:rotate(0deg);
+    opacity:0;
+  }
+  50% {
+    opacity:0.8;
+  }
+  100% {
+    top:90%;
+    left:90%;
+    transform:rotate(90deg);
+    opacity:0
+  }
+}
 
-
-
-
+/* This is for the crushed cans. They fall from right to left */
+@keyframes falltoleft {
+  0% {
+    top:0%;
+    left:90%;
+    transform:rotate(90deg);
+    opacity:0
+  }
+  50% {
+    opacity:0.8;
+  }
+  100% {
+    top:90%;
+    left:5%;
+    transform:rotate(0deg);
+    opacity:0;
+  }
+}
 
 
 

@@ -7,7 +7,7 @@ function TextboxUI(p="Each sea turtle species uniquely affects the health, diver
     font-weight:500;
     width:100vw;
     max-width:300px;
-    border:solid 1px black;
+    background-color:white;
     display:flex;
     align-content:center;
     padding:20px;

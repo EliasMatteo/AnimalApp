@@ -1,11 +1,11 @@
-function RotateSunUI(src="http://placekitten.com/300/300") {
+function RotateSunUI() {
   return `
     <div class="sundiv" style="
       height:5em;
       width:5em;
-      background-color:#333;
     ">
-      <img class="sunimg rotate" src="${src}"
+      <img class="sunimg rotate" 
+      src="../../img/sun.png"
       style="
         height:5em;
         width:5em;

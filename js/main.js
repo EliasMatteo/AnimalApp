@@ -37,7 +37,7 @@
     //
 
     // CATHERINE COMPONENT LINKS
-
+    document.querySelector('#main').innerHTML += RotateSunUI()
     //
 
 

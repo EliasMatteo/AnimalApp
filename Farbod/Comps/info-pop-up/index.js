@@ -20,9 +20,9 @@ function popupUI() {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border: none;
         '
-         onclick="vis()">
+         onclick="popupUI.vis(this)">
             <div style='
-            font-family: 'Varela Round', sans-serif;
+            font-family: Varela Round, sans-serif;
             font-weight: bold;
             align-items: center;
             text-align: center;
@@ -55,7 +55,7 @@ flex-direction: column;
         <div style='
         color: #242C3C;
         font-size: 16px;
-        font-family: 'Roboto', sans-serif;
+        font-family: Roboto, sans-serif;
         text-align: center;
         justify-content: center;
         display: flex;
@@ -102,7 +102,7 @@ flex-direction: column;
         font-size: 16px;
         color: #242C3C;
         border: none;
-        font-family: 'Roboto', sans-serif;
+        font-family: Roboto, sans-serif;
         '>
         Foundation Link</button></div>
     </div>

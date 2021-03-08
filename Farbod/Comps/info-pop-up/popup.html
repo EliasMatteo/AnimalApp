@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+    <meta charset="utf-8">
+    <title>Pop-Up</title>
+    <meta name="description" content="An Interactive Story by Set B Group 4">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body style="background-color: #88A7BC;">
+    <div>
+        <div>
+            <button class="icon" onclick="vis()">
+                <div class="iicon">i</div>
+            </button>
+        </div>
+    </div>
+    <div id="cent">
+        <div class="popup">
+            <div class="txt">
+                <b>Team Members</b>
+                Catherine<br>
+                Farbod<br>
+                Mateo<br>
+                <br>
+                <br>
+                <b>Topics</b>
+                Social Awareness<br>
+                Climate Change<br>
+                <br>
+                <br>
+                <b>Goals</b>
+                To educate using<br>
+                interactive storytelling<br>
+                <br>
+                References:<br>
+                <br>
+                https://www.worldwil<br>dlife.org/species/haw<br>ksbill-turtle
+                <br>
+                <br>
+                https://oliveridleyp<br>roject.org/life-cycle-<br>of-turtles
+            </div>
+            <br>
+            <br>
+            <div><button class="link">Foundation Link</button></div>
+        </div>
+    </div>
+    <script>
+        function vis() {
+            var x = document.getElementById('cent');
+        if (x.style.display === 'none') {
+        x.style.display = 'flex';
+    } 
+        else {
+        x.style.display = 'none';
+    }
+}
+    </script>
+
+</body>
+
+</html>

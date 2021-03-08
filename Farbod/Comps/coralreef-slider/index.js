@@ -38,7 +38,7 @@ function coralreefUI() {
             width: 30px;
             background-color: white;
             color: black;
-            font-family: 'Nanum Gothic', sans-serif;
+            font-family: Nanum Gothic, sans-serif;
             border: none;
             font-weight: bold;
             align-items: center;
@@ -52,7 +52,7 @@ function coralreefUI() {
             width: 30px;
             background-color: white;
             color: black;
-            font-family: 'Nanum Gothic', sans-serif;
+            font-family: Nanum Gothic, sans-serif;
             border: none;
             font-weight: bold;
             align-items: center;

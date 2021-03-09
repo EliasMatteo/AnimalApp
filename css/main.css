@@ -15,6 +15,12 @@ body, html {
     overflow-x: hidden;
     background-color: #88A7BC;
   }
+
+#main {
+  width:30vw;
+  min-width:370px;
+  margin:auto;
+}
   
   /* Center text on page */
 .centertext {

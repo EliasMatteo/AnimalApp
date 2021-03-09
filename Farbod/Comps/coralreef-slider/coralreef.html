@@ -18,7 +18,7 @@
 <body style="background-color: #88A7BC;">
     <div class="main">
         <div class="box">
-            <img id="myImage" src="coralreefboth.png">
+            <img id="myImage" src="/img/coralreefboth.png">
         </div>
         <div id="buttons">
             <button class="arrows" onclick="after()"><</button>
@@ -29,17 +29,17 @@
     <script>
     
     function before() {
-        document.getElementById('myImage').src='coralreefbefore.jpg';
+        document.getElementById('myImage').src='/img/coralreefbefore.jpg';
         document.getElementById('buttons').style.opacity = "0.5";
     }
     
     function after() {
-        document.getElementById('myImage').src='coralreefafter.jpg';
+        document.getElementById('myImage').src='/img/coralreefafter.jpg';
         document.getElementById('buttons').style.opacity = "0.5";
     }
     
     function both() {
-        document.getElementById('myImage').src='coralreefboth.png';
+        document.getElementById('myImage').src='/img/coralreefboth.png';
         document.getElementById('buttons').style.opacity = "1";
     }
     

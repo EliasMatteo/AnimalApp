@@ -108,6 +108,7 @@ flex-direction: column;
     </div>
 </div>
 `
+}
 
 function vis() {
     var x = document.getElementById('#cent');
@@ -118,4 +119,4 @@ function vis() {
     x.style.display = 'none';
     }
 }
-}
+

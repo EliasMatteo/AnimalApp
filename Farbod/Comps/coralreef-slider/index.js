@@ -13,7 +13,7 @@ function coralreefUI() {
     flex-direction: column;
     '>
         <div>
-            <img id="myImage" style='
+            <img id='myImage' style='
             min-width: 370px;
             min-height: 270px;
             max-width: 370px;
@@ -22,7 +22,7 @@ function coralreefUI() {
             ' 
             src='../../img/coralreefboth.png'>
         </div>
-        <div style='
+        <div id='buttons' style='
         position: absolute;
         display: flex;
         justify-content: flex-start;
@@ -51,42 +51,34 @@ function coralreefUI() {
             text-align: center;
             '
             onclick='both()'>Compare</button>
-            <button id='leftb' style='
-            height: 54px;
-            width: 30px;
-            background-color: white;
-            color: black;
-            font-family: Nanum Gothic, sans-serif;
-            border: none;
-            font-weight: bold;
-            align-items: center;
-            text-align: center;
-            font-size: 32px;
+            <button style = '
+                height: 54px;
+                width: 30px;
+                background-color: white;
+                color: black;
+                font-family: Nanum Gothic, sans-serif;
+                border: none;
+                font-weight: bold;
+                align-items: center;
+                text-align: center;
+                font-size: 32px;
             '  
-            onclick='coralreefUI.opacityHandler()'>></button>
+                onclick='before()'>></button>
         </div>
     </div>
     `
-//     function before() {
-//         document.getElementById('#myImage').src='../../img/coralreefbefore.jpg';
-//         document.getElementById('#buttons').style.opacity = "0.5";
-//     }
-    
-//     function after() {
-//         document.getElementById('#myImage').src='../../img/coralreefafter.jpg';
-//         document.getElementById('#buttons').style.opacity = "0.5";
-//     }
-    
-//     function both() {
-//         document.getElementById('#myImage').src='../../img/coralreefboth.png';
-//         document.getElementById('#buttons').style.opacity = "1";
-//     }
-// }
-
-    function opacityHandler() {
-        var before = document.getElementById('#leftb');
-        if (before.onclick == true) {
-            before.style.opacity = "0.5";
-        }
-    }
 }
+    function before() {
+        document.getElementById('#myImage').src='/img/coralreefbefore.jpg';
+        document.getElementById('#buttons').style.opacity = "0.5";
+    }
+    
+    function after() {
+        document.getElementById('#myImage').src='/img/coralreefafter.jpg';
+        document.getElementById('#buttons').style.opacity = "0.5";
+    }
+    
+    function both() {
+        document.getElementById('#myImage').src='/img/coralreefboth.png';
+        document.getElementById('#buttons').style.opacity = "1";
+    }

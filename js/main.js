@@ -10,7 +10,7 @@
 
     document.querySelector('#title').innerHTML += popupUI()
     document.querySelector('#title').innerHTML += RotateSunUI()
-    document.querySelector('#title').innerHTML += TurtleUI(760, 10)
+    document.querySelector('#title').innerHTML += TurtleUI(760, 65)
     document.querySelector('#title').innerHTML += TitleUI()
     document.querySelector('#title').innerHTML += WavesUI()
     

@@ -20,7 +20,7 @@ function popupUI() {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         border: none;
         '
-         onclick="popupUI.vis(this)">
+         onclick='vis()'>
             <div style='
             font-family: Varela Round, sans-serif;
             font-weight: bold;
@@ -108,8 +108,9 @@ flex-direction: column;
     </div>
 </div>
 `
-    function vis() {
-        var x = document.getElementById('cent');
+
+function vis() {
+    var x = document.getElementById('#cent');
     if (x.style.display === 'none') {
     x.style.display = 'flex';
 } 

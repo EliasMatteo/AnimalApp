@@ -12,13 +12,7 @@ function coralreefUI() {
     align-items: center;
     flex-direction: column;
     '>
-        <div style='
-        min-width: 370px;
-        min-height: 270px;
-        max-width: 370px;
-        max-height: 270px;
-        border: solid white 3px;
-        '>
+        <div>
             <img id="myImage" style='
             min-width: 370px;
             min-height: 270px;
@@ -46,7 +40,17 @@ function coralreefUI() {
             font-size: 32px;
             ' 
             onclick='coralreefUI.after(this)'><</button>
-            <button class='compare' onclick='coralreef.both(this)'>Compare</button>
+            <button style='
+            height: 54px;
+            background-color: white;
+            color: black;
+            font-family: Roboto, sans-serif;
+            border: none;
+            font-weight: bold;
+            align-items: center;
+            text-align: center;
+            '
+            onclick='coralreef.both(this)'>Compare</button>
             <button style='
             height: 54px;
             width: 30px;

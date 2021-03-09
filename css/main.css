@@ -29,6 +29,10 @@ body, html {
   
 }
 
+.fishesM {
+  position: relative;
+}
+
 /*This should control the animation effect for the waves effect which is meant to be opacity but its currently not working*/
 /* @keyframes waves {
   0% {opacity: 0;}

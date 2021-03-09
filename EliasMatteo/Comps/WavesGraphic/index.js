@@ -17,7 +17,7 @@ function WavesUI(x=0, y=0)
             '
 
             >
-                <img id='waves' src = '/img/waves.svg'/>
+                <img class='fishesM' id='waves' src = '/img/waves.svg'/>
             </div>
             
             `

@@ -33,9 +33,9 @@
     document.querySelector('#endanger').innerHTML += Fish2UI(-400, 10)
     document.querySelector('#endanger').innerHTML += HeadingUI("Why are they endangered?")
     document.querySelector('#endanger').innerHTML += TextboxUIlist()
+    document.querySelector('#endanger').innerHTML += Fish3UI(-450,10)
     
-    document.querySelector('#help').innerHTML += Fish3UI(-450,10)
-    document.querySelector('#help').innerHTML += HeadingUI("How can we help?")
+    document.querySelector('#helpheading').innerHTML += HeadingUI("How can we help?")
     document.querySelector('#bags').innerHTML += TextboxUI("120","Instead of using plastic bags for shopping,")
     document.querySelector('#bags').innerHTML += TextboxUI("120","let’s try to bring a cloth bag every time we go out.")
     document.querySelector('#bagimgs').innerHTML += litteringUI()

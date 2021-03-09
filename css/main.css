@@ -14,7 +14,13 @@ body, html {
     margin: 0px;
     overflow-x: hidden;
     background-color: #88A7BC;
-    
+  }
+  
+  /* Center text on page */
+.centertext {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
 }
 
 /* Make two images or textboxes side by side */

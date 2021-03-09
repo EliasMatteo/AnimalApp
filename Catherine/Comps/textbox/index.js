@@ -13,6 +13,7 @@ function TextboxUI(
     display:flex;
     align-content:center;
     padding:20px;
+    margin:5px;
     overflow-wrap:anywhere;
   "> ${p}
   </p>

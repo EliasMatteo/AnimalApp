@@ -13,7 +13,7 @@ function SchoolFishUI( x=0, y=0)
    '
      onclick='SchoolFishUI.HandleClick(this)'
      > 
-      <img id='schoolfish1' src = '/img/SchoolFish1.svg' />
+      <img class='fishesM' id='schoolfish1' src = '/img/SchoolFish1.svg' />
     </div>
     
     `

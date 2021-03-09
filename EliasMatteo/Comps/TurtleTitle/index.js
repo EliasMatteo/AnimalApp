@@ -10,7 +10,7 @@ function TurtleUI(x=0, y=0)
         left:${x}px;
         
         '>
-            <img src = '/img/turtle-title.svg' />
+            <img class='fishesM' src = '/img/turtle-title.svg' />
         </div>
     `
 }

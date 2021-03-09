@@ -13,7 +13,7 @@ function Fish2UI( x=0, y=0)
    '
     onclick='Fish2UI.HandleClick(this)'
 > 
-    <img id='fish2' src = '/img/fishColor2.svg'/>
+    <img class='fishesM' id='fish2' src = '/img/fishColor2.svg'/>
 
 </div>
     

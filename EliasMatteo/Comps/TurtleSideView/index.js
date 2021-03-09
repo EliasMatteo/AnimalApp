@@ -7,7 +7,7 @@ function TurtleSideViewUI()
         
         
         '>
-           <img src = 'img/turtleSideView.svg'/>
+           <img class='fishesM' src = 'img/turtleSideView.svg'/>
         </div>
 
     `

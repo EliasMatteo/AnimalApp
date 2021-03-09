@@ -4,7 +4,6 @@ function FallingTrashUI(src="../../img/bottle.png"){
     height:50em;
     width:100vw;
     position:relative;
-    background-color:#333;
   ">
     <img class="trashimg" src="${src}"
     style="

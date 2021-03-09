@@ -1,12 +1,15 @@
-function seafloorUI(){
+function seafloorUI(x=0, y=0){
     return `<div styel = '
-    width: 375px;
-    height: 89px;
     display: flex;
-    margin-bottom: 0;
+    justify-content: center;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    top:${y}px;
+    left:${x}px;
     '>
-        <div>
-            <img src='../../img/seafloor.svg'/>
-        </div>
+        
+     <img src='/img/seafloor.svg'/>
+        
     </div>`
 }

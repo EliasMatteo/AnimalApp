@@ -13,6 +13,11 @@
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap" rel="stylesheet">
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/main.css">
@@ -25,6 +30,16 @@
 
   <!-- Add your site or application content here -->
     <div id="main">
+        <div class="coral">
+            <div class="box">
+                <img id="myImage" src="/img/coralreefboth.png"/>
+            </div>
+            <div id="buttons">
+                <button class="arrows" onclick="after()"><</button>
+                <button class="compare" onclick="both()">Compare</button>
+                <button class="arrows" onclick="before()">></button>
+            </div>
+        </div>
       <div id="test"></div>
 
 
@@ -37,6 +52,24 @@
   <!--hi im a divider hehe ignore me -_- -->
   
   <!--ADD YOUR COMP SCRIPT BELOW HERE PLEASE/ ALSO WE CAN ORGANIZE THEM LATER FOR BETTER STACKING ORDER-->
+  <script>
+    
+  function before() {
+      document.getElementById('myImage').src='/img/coralreefbefore.jpg';
+      document.getElementById('buttons').style.opacity = "0.5";
+  }
+    
+  function after() {
+      document.getElementById('myImage').src='/img/coralreefafter.jpg';
+      document.getElementById('buttons').style.opacity = "0.5";
+  }
+    
+  function both() {
+      document.getElementById('myImage').src='/img/coralreefboth.png';
+      document.getElementById('buttons').style.opacity = "1";
+  }
+    
+  </script>
   
   <!--ELIAS MATTEO COMPS-->
   <script src="/EliasMatteo/Comps/Title/index.js"></script>

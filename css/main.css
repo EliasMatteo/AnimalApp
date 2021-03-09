@@ -16,6 +16,52 @@ body, html {
     background-color: #88A7BC;
 }
 
+/*Coral Reef Images*/
+.coral {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box #myImage {
+  min-width: 370px;
+  min-height: 270px;
+  max-width: 370px;
+  max-height: 270px;
+  border: solid white 3px;
+}
+
+#buttons {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.arrows {
+  height: 54px;
+  width: 30px;
+  background-color: white;
+  color: black;
+  font-family: 'Nanum Gothic', sans-serif;
+  border: none;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  font-size: 32px;
+}
+
+.compare {
+  height: 54px;
+  background-color: white;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+}
+
 /*This should control the animation effect for certain svg fishes going to the left in particular*/
 @keyframes fishL {
   from {left: 0px;}

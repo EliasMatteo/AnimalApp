@@ -55,7 +55,7 @@
     document.querySelector('#save').innerHTML += coralreefUI()
     
     document.querySelector('#ending').innerHTML += FallingTrashUI("../../img/can.png")
-    document.querySelector('#ending').innerHTML += SchoolFish4UI(-450, 80)
+    document.querySelector('#ending').innerHTML += SchoolFish4UI(-120, 80)
     document.querySelector('#ending').innerHTML += HeadingUI("Now where does our app come in ?")
     document.querySelector('#ending').innerHTML += TextboxUI("300","We want to raise awareness for the cruel things that are happening to these animals.")
     document.querySelector('#ending').innerHTML += TextboxUI("300","And to help educate younger minds of such things for a brighter future...")

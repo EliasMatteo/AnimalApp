@@ -17,6 +17,10 @@ body, html {
     
 }
 
+/* Make two images or textboxes side by side */
+.sidebyside {
+  display:flex;
+}
 
 
 /*This should control the animation effect for certain svg fishes going to the left in particular*/

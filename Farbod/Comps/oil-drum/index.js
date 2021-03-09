@@ -1,19 +1,15 @@
-function oildrumUI(x=0, y=0) {
+function oildrumUI() {
     return `
     <div style = '
-        display:flex;
-        position:relative;
-        justify-content: flex-end;
-        width: 100%;
-        height: 100%;
-        margin-top:70px;
-        margin-bottom: 0px;
-        top:${x};
-        left:${y};
+        width: 132px;
+        height: 132px;
+        float: right;
+        margin-right: -75px;
+        margin-bottom: -75px;
     '>
-        
-        <img src='/img/oildrum.svg'/>
-        
+        <div>
+            <img src='../../img/oildrum.svg'/>
+        </div>
     </div>
 `
 }

@@ -65,7 +65,7 @@
     document.querySelector('#floor').innerHTML += HeadingUI("Thank you for reading!")
     document.querySelector('#floor').innerHTML += buttonbottomUI()
     document.querySelector('#floor').innerHTML += turtleoilUI()
-    document.querySelector('#floor').innerHTML += oildrumUI(100)
+    document.querySelector('#floor').innerHTML += oildrumUI()
     document.querySelector('#floor').innerHTML += seafloorUI()
 
     

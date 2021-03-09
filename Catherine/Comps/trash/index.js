@@ -1,7 +1,7 @@
 function FallingTrashUI(src="../../img/bottle.png"){
   return `
   <div class="trashdiv" style="
-    height:50em;
+    height:10em;
     width:100vw;
     position:relative;
   ">

@@ -4,6 +4,7 @@ function TurtleUI(x=0, y=0)
         <div style = '
         display: flex;
         position: relative;
+        justify-content: center;
         height: 28px;
         width: 61px;
         top:${y}px;

@@ -14,20 +14,20 @@
     document.querySelector('#title').innerHTML += TitleUI()
     document.querySelector('#title').innerHTML += WavesUI()
     
-    document.querySelector('#intro').innerHTML += SchoolFishUI()
+    document.querySelector('#intro').innerHTML += SchoolFishUI(850, 50)
     document.querySelector('#intro').innerHTML += HeadingUI("Sea turtles are endangered. Why should we care?")
     document.querySelector('#intro').innerHTML += TextboxUI("Each sea turtle species uniquely affects the health, diversity, habitat and functionality of its environment")
     document.querySelector('#intro').innerHTML += TextboxUI("Hawksbill sea turtles control sponge distribution. ")
     document.querySelector('#intro').innerHTML += TextboxUI("They are one of the few hebivores that eat sponges. ")
     document.querySelector('#intro').innerHTML += TextboxUI("With fewer sponges in the reefs, corals have a chance to grow, which is the home for these turtles")
     
-    document.querySelector('#whycare').innerHTML += FishUI()
+    document.querySelector('#whycare').innerHTML += FishUI(400,10)
     document.querySelector('#whycare').innerHTML += TextboxUI("Sea turtles are one of the key species for a healthy ocean because they influence many other species around them. ")
     document.querySelector('#whycare').innerHTML += TextboxUI("Sea turtle hatchlings have a big impact on the environment. ")
     document.querySelector('#whycare').innerHTML += TextboxUI("They are a food source for many animals. ")
     document.querySelector('#whycare').innerHTML += TextboxUI("They leave behind nutrients good for coastal vegitation. ")
     
-    document.querySelector('#endanger').innerHTML += TurtleSideViewUI()
+    document.querySelector('#endanger').innerHTML += TurtleSideViewUI(675,20)
     document.querySelector('#endanger').innerHTML += Fish2UI()
     document.querySelector('#endanger').innerHTML += HeadingUI("Why are they endangered?")
     document.querySelector('#endanger').innerHTML += TextboxUI("1. Slaughtered by poachers. 2. Pollution from humans make their homes inhabitable. 3. Warmer sand temperatures produce more female hatchlings.")

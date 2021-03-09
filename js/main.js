@@ -38,6 +38,22 @@
 
     // CATHERINE COMPONENT LINKS
     document.querySelector('#main').innerHTML += RotateSunUI()
+    document.querySelector('#main').innerHTML += TextboxUI("Each sea turtle species uniquely affects the health, diversity, habitat and functionality of its environment")
+    document.querySelector('#main').innerHTML += TextboxUI("Hawksbill sea turtles control sponge distribution. ")
+    document.querySelector('#main').innerHTML += TextboxUI("They are one of the few hebivores that eat sponges. ")
+    document.querySelector('#main').innerHTML += TextboxUI("With fewer sponges in the reefs, corals have a chance to grow, which is the home for these turtles")
+    
+    document.querySelector('#main').innerHTML += TextboxUI("Sea turtles are one of the key species for a healthy ocean because they influence many other species around them. ")
+    document.querySelector('#main').innerHTML += TextboxUI("Sea turtle hatchlings have a big impact on the environment. ")
+    document.querySelector('#main').innerHTML += TextboxUI("They are a food source for many animals. ")
+    document.querySelector('#main').innerHTML += TextboxUI("They leave behind nutrients good for coastal vegitation. ")
+    
+    document.querySelector('#main').innerHTML += TextboxUI("1. Slaughtered by poachers. 2. Pollution from humans make their homes inhabitable. 3. Warmer sand temperatures produce more female hatchlings.")
+    document.querySelector('#main').innerHTML += TextboxUI("Instead of using plastic bags for shopping, let’s try to bring a cloth bag every time we go out.")
+    document.querySelector('#main').innerHTML += TextboxUI("Instead of buying snack-sized food packages, let’s try to buy bulk food using glass containers.")
+    document.querySelector('#main').innerHTML += TextboxUI("The less plastic you use, the smaller the chance of it being eaten by animals that mistake it as food or trapping animals. Every little decision you make can combine to make a huge difference in the ecosystem")
+    document.querySelector('#main').innerHTML += TextboxUI("Instead of dead coral reefs... let’s preserve living coral reefs.")
+
     document.querySelector('#main').innerHTML += FallingTrashUI("../../img/bottle.png")
     document.querySelector('#main').innerHTML += FallingTrashUI("../../img/can.png")
     //

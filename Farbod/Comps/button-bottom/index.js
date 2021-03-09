@@ -4,7 +4,6 @@ function buttonbottomUI() {
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 
     <div style = '
-        justify-content: center;
         display: flex;
         align-items: center;
         flex-direction: column;

@@ -3,9 +3,11 @@ function turtleoilUI() {
 <div style = '
     width: 35px;
     height: 35px;
-    margin-left: 335px;
-    margin-top: -27px;
     position: absolute;
+    justify-content: center;
+    align-itemns: center;
+    margin-left: 300px;
+    margin-bottom: -100px;
 '>
     <div>
     <img src='/img/turtleoil.svg'/>

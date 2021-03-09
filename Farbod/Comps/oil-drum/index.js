@@ -3,11 +3,11 @@ function oildrumUI(x=0, y=0) {
     <div style = '
         display:flex;
         position:relative;
-        justify-content: flex-end;
+        justify-content: center;
+        margin-left: 300px;
+        margin-bottom: -70px;
         width: 100%;
         height: 100%;
-        margin-top:70px;
-        margin-bottom: 0px;
         top:${x};
         left:${y};
     '>

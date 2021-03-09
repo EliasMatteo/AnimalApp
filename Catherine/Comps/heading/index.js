@@ -3,7 +3,7 @@ function HeadingUI(h="Sea turtles are endangered. Why should we care?") {
     <h4 style="
     font-family:sans-serif;
     font-weight:500;
-    color:grey;
+    color:white;
     text-align:center;
     width:100vw;
     max-width:200px;

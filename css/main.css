@@ -149,35 +149,7 @@ body, html {
 }
 
 
-.contain-img {
-  position: relative;
-  height: 400px; /*should be the same height as the images*/
-  box-sizing: border-box;
-}
 
-.comp-img {
-  position: absolute;
-  width: auto;
-  height: auto;
-  overflow:hidden;
-}
-
-.comp-img img {
-  display:block;
-  vertical-align: middle;
-}
-
-/*set the appearance of the slider:*/
-.slider {
-  position: absolute;
-  z-index:9;
-  cursor: ew-resize;
-  width: 40px;
-  height: 40px;
-  background-color: red;
-  opacity: 0.7;
-  border-radius: 50%;
-}
 
 
 

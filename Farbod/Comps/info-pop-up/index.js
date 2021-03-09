@@ -10,6 +10,9 @@ function popupUI() {
     <div>
         <button type='button' onclick='vis()' 
         style='
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 10px;
         overflow: hidden;
         width: 40px;
         height: 40px;
@@ -28,12 +31,13 @@ function popupUI() {
             '>i</div>
         </button>
     </div>
-    </div>
     <div id="cent" style='
     align-items: center;
     justify-content: center;
     flex-direction: column;
     display: none;
+    position: absolute;
+    z-index: 1;
     '>
         <div style='
         width: 290px;

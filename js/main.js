@@ -30,7 +30,7 @@
     document.querySelector('#whycare').innerHTML += TextboxUI("230","They leave behind nutrients good for coastal vegitation. ")
     
     document.querySelector('#endanger').innerHTML += TurtleSideViewUI()
-    document.querySelector('#endanger').innerHTML += Fish2UI(-100, 70)
+    document.querySelector('#endanger').innerHTML += Fish2UI(-10, 70)
     document.querySelector('#endanger').innerHTML += HeadingUI("Why are they endangered?")
     document.querySelector('#endanger').innerHTML += TextboxUIlist()
     document.querySelector('#endanger').innerHTML += Fish3UI(-50,70)

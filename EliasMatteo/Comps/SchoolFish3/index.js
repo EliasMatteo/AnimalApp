@@ -3,6 +3,7 @@ function SchoolFish3UI( x=0, y=0)
     return `
      <div style = '
         display:flex;
+        position:relative;
         justify-content: flex-end;
         z-index: 0;
         width: 100%;

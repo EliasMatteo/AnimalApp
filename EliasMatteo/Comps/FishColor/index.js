@@ -3,6 +3,7 @@ function FishUI( x=0, y=0)
     return `
     <div style ='
         display: flex;
+        position:relative;
         z-index: 0;
         width: 100%;
         height: 100%;

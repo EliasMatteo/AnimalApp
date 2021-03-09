@@ -4,11 +4,15 @@ function buttonbottomUI() {
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 
     <div style = '
-        text-align: center;
-        align-items: center;
+        justify-content: center;
         display: flex;
+        align-items: center;
+        flex-direction: column;
+        z-index: 10;
+        position: sticky;
         '>
-        <button style = '
+        <button onclick='toTop()' 
+        style = '
             background-color: #FFE9A7;
             border-radius: 244px;
             width: 244px;
@@ -24,4 +28,8 @@ function buttonbottomUI() {
         </button>
     </div>
         `
+}
+
+function toTop() {
+    window.scrollTo(0, 0);
 }
